@@ -1,0 +1,111 @@
+{
+	"bigSuccess": "1",
+	"loveChange": [],
+	"$intimacyOther": [-1, -1],
+	"rewardItems": [541],
+	"userLevelVo": {
+		"level": "128",
+		"exp": 46593,
+		"expAdd": 30,
+		"nextLevelExpNeed": 175360,
+		"lastLevelExpNeed": 0
+	},
+	"packageVo": [""],
+	"userResVo": {
+		"gold": 680,
+		"oil": 283002,
+		"ammo": 37817,
+		"steel": 451696,
+		"aluminium": 194189
+	},
+	"newAward": {
+		"3": 45,
+		"4": 45,
+		"6": 30,
+		"541": 1
+	},
+	"pveExploreVo": {
+		"levels": [{
+				"exploreId": "20001",
+				"fleetId": "1",
+				"startTime": 1487425497,
+				"endTime": 1487432697
+			}, {
+				"exploreId": "30002",
+				"fleetId": "3",
+				"startTime": 1487427355,
+				"endTime": 1487432755
+			}, {
+				"exploreId": "10002",
+				"fleetId": "4",
+				"startTime": 1487425772,
+				"endTime": 1487427572
+			}, {
+				"exploreId": "50004",
+				"fleetId": "2",
+				"startTime": 1487425503,
+				"endTime": 1487432703
+			}
+		],
+		"chapters": [1, 2, 3, 4, 5, 6]
+	},
+	"detailInfo": {
+		"username": "\u81e7\u548c",
+		"titleId": 7,
+		"level": 128,
+		"exp": 46593,
+		"lastLevelExpNeed": 128767,
+		"nextLevelExpNeed": 175360,
+		"shipNum": 464,
+		"equipmentNum": 201,
+		"equipmentNumTop": 500,
+		"shipNumTop": 560,
+		"collection": "77%",
+		"pveWin": "96716",
+		"pveLost": 38991,
+		"pveNum": "135707",
+		"pvpWin": "2001",
+		"pvpLost": 643,
+		"pvpNum": "2644",
+		"exploreNum": 10628,
+		"exploreBigSuccessNum": 6410
+	},
+	"shipVO": {
+		"id": "4",
+		"uid": "3318989",
+		"title": "\u7b2c\u56db\u8230\u961f",
+		"status": 0,
+		"formation": 0,
+		"ships": [1226, 33641, 468, 366, 216, 356]
+	},
+	"fleetVo": [{
+			"id": "1",
+			"uid": "3318989",
+			"title": "\u7b2c\u4e00\u8230\u961f",
+			"status": 1,
+			"formation": 0,
+			"ships": [29456, 1260, 272, 474, 415, 32426]
+		}, {
+			"id": "2",
+			"uid": "3318989",
+			"title": "\u7b2c\u4e8c\u8230\u961f",
+			"status": 1,
+			"formation": 0,
+			"ships": [123, 1466, 1497, 1599, 2217, 104]
+		}, {
+			"id": "3",
+			"uid": "3318989",
+			"title": "\u7b2c\u4e09\u8230\u961f",
+			"status": 1,
+			"formation": 0,
+			"ships": [26754, 2234, 27122, 30054, 7044, 7055]
+		}, {
+			"id": "4",
+			"uid": "3318989",
+			"title": "\u7b2c\u56db\u8230\u961f",
+			"status": 0,
+			"formation": 0,
+			"ships": [1226, 33641, 468, 366, 216, 356]
+		}
+	]
+}
