@@ -4659,8 +4659,8 @@ bool BehaviourManager::initStaticParameters() {
 
 	staticParameters.behaviourNode_Login.behaviourType = BehaviourType::LoginBehaviour;
 	LoginBehaviourParameter loginBehaviourParameterTemp;
-	loginBehaviourParameterTemp.username = "lesbox";
-	loginBehaviourParameterTemp.password = "packless";
+	loginBehaviourParameterTemp.username = "";
+	loginBehaviourParameterTemp.password = "";
 	loginBehaviourParameterTemp.serverId = 12;
 	staticParameters.behaviourNode_Login.behaviourParameters = QVariant::fromValue(loginBehaviourParameterTemp);
 
