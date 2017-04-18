@@ -44,7 +44,7 @@ bool BehaviourManager::sendWLTRequest2() {
 	}
 	request = new QNetworkRequest();
 
-	QByteArray Content = (QString("cmd=login&url=URL&ip=") + ipAddress + QString("&name=PW1994&password=123456&savepass=on&go=%B5%C7%C2%BC%D5%CA%BB%A7")).toUtf8();
+	QByteArray Content = (QString("cmd=login&url=URL&ip=") + ipAddress + QString("&name=&password=&savepass=on&go=%B5%C7%C2%BC%D5%CA%BB%A7")).toUtf8();
 
 	networkCookie->setCookies(QList<QNetworkCookie>());
 	request->setUrl(QUrl("http://wlt.ustc.edu.cn/cgi-bin/ip"));
@@ -60,7 +60,7 @@ bool BehaviourManager::sendWLTRequest2() {
 	request->setRawHeader("Referer", "http://wlt.ustc.edu.cn/");
 	request->setRawHeader("Accept-Encoding", "gzip, deflate");
 	request->setRawHeader("Accept-Language", "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4");
-	request->setRawHeader("Cookie", "name=PW1994; password=123456");
+	request->setRawHeader("Cookie", "name=; password=");
 
 	networkReply = networkManager->post(*request, Content);
 	connect(networkReply, SIGNAL(finished()), this, SLOT(parseWLTData2()));
@@ -92,7 +92,7 @@ bool BehaviourManager::sendWLTRequest3() {
 	request->setRawHeader("Referer", "http://wlt.ustc.edu.cn/");
 	request->setRawHeader("Accept-Encoding", "gzip, deflate, sdch");
 	request->setRawHeader("Accept-Language", "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4");
-	request->setRawHeader("Cookie", (QString("name=PW1994; password=123456; rn=") + rn).toUtf8());
+	request->setRawHeader("Cookie", (QString("name=; password=; rn=") + rn).toUtf8());
 
 	networkReply = networkManager->get(*request);
 	connect(networkReply, SIGNAL(finished()), this, SLOT(parseWLTData3()));
