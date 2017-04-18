@@ -92,7 +92,7 @@ void BehaviourManager::reconnectWLANErrorHandler() {
 		if (x.bearerType() == QNetworkConfiguration::BearerWLAN)
 		{
 			QString test = x.name();
-			if (x.name() == "LAB-1213") {
+			if (x.name() == "") {
 				cfg = x;
 				flag = 1;
 			}
